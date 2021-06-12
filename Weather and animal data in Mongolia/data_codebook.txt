@@ -1,0 +1,30 @@
+- sujet / problématique : nombre des animaux fermiers a une incidence sur le climat en Mongolie?
+
+- source du dataset : 
+	* https://www.1212.mn/tables.aspx?tbl_id=DT_NSO_1001_040V2&SOUM_select_all=1&SOUMSingleSelect=&LivestockPrice_select_all=0&LivestockPriceSingleSelect=_223&YearM_select_all=1&YearMSingleSelect=&viewtype=table -- animal data
+	* https://climateknowledgeportal.worldbank.org/download-data -- weather data
+    
+- que représente une ligne ?
+	* Animal : Number of a one kind of animal per year, per region
+	* Average temperature by month and year
+	* Average rainfall by month and year
+    
+- combien de colonnes ?
+	* Animal : 4
+	* Average temperature : 5
+	* Average rainfall : 5
+    
+- combien de lignes ?
+	* Animal : 1275
+	* Average temperature : 360 * 2
+	* Average rainfall : 360 * 2
+    
+- présentation à grosses mailles des types de variables
+	* Animal : number of head for each animal
+	* Average temperature 
+	* Average rainfall
+    
+- une présentation succinte (en moins de 30 sec) de comment vous comptez utiliser votre dataset pour répondre à votre problématique
+	* Voir si la hausse de temperature est réelle
+	* Voir s'il y a une correlation entre le nombre de chèvres et la temperature moyenne
+	* Voir si le nb de chèvres est particulièrement élevé par rapport aux autres animaux
